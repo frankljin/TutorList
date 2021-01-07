@@ -4,7 +4,6 @@ Currently a work in progress...
 
 Technologies used: 
  - React.js, Material-UI, Bootstrap
- - Node.js
  - Firebase Authentication and Realtime Database
  - EmailJS, Daily.co API
 
