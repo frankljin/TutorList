@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+img {
+  width: 60px;
+}
+
+#mainlogo {
+  width: 150px;
+}
+
+#pagecontent {
+  width: 100%;
+  height: 100%;
+  background: rgb(6,0,105);
+  background: linear-gradient(360deg, rgba(6,0,105,1) 0%, rgba(0,197,255,1) 61%, rgba(50,255,175,1) 100%);
+}
+
+#pagecontent, #main {
+  width: 100%;
+  height: 100%;
+}
+
+.vertical {
+  margin-top: 10%;
+}
+
+#mainh {
+  color: #0e94ba;
+}
+
+.container, .text-center {
+  width: 100%;
+}
+
+.navbar-nav > li{
+  padding-left:15px;
+  padding-right:15px;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.badge {
+  margin-right: 7px;
+}
+
+#contactcard {
+  width: 40rem;
+  background-color: rgb(241, 241, 241);
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  color: white;
+  border-right: .15em solid rgb(25, 191, 212); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .25em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(25, 191, 212); }
+}
+
+#calendar {
+  margin-left: 40%;
+}
+
+#btnform {
+  margin: 0%;
+}
+
+.Video-Frame, #vidcontainer, #vidcontainerout  {
+  width: 100%;
+  height: 100%;
+}

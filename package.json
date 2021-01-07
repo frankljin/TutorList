@@ -1,0 +1,53 @@
+{
+  "name": "tutor2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@daily-co/daily-js": "^0.9.996",
+    "@devexpress/dx-react-core": "^2.7.4",
+    "@devexpress/dx-react-scheduler": "^2.7.4",
+    "@devexpress/dx-react-scheduler-material-ui": "^2.7.4",
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@testing-library/jest-dom": "^5.11.8",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.6.0",
+    "emailjs": "^3.4.0",
+    "emailjs-com": "^2.6.4",
+    "firebase": "^8.2.1",
+    "node-fetch": "^2.6.1",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-calendar": "^3.3.0",
+    "react-dom": "^17.0.1",
+    "react-multiselect-dropdown-bootstrap": "^1.0.16",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
